@@ -1,4 +1,8 @@
 defmodule Poker.Deck do
+  @moduledoc """
+  Deck module
+  """
+
   alias Poker.Card
 
   @type t :: [Card.t()]

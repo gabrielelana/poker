@@ -1,4 +1,8 @@
 defmodule Poker.Card do
+  @moduledoc """
+  Card module
+  """
+
   import Kernel, except: [to_string: 1]
 
   @type suit :: :clubs | :diamonds | :hearts | :spades

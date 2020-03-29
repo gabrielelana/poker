@@ -1,4 +1,8 @@
 defmodule Poker.Hand do
+  @moduledoc """
+  Hand module
+  """
+
   alias Poker.Card
 
   @type t :: [Card.t()]
